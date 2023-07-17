@@ -3,7 +3,14 @@
 }
 
 .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .shop {
+  border: 2px dotted crimson;
+  flex-basis: 25%;
+  text-align: left;
+  padding: 0.25em;
 }
